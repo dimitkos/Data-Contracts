@@ -11,15 +11,18 @@ namespace API.Types
     public class Address
     {
         [DataMember(Name = "street")]
-        public string street { get; set; }
+        public string Street { get; set; }
 
         [DataMember(Name = "suite")]
-        public string suite { get; set; }
+        public string Suite { get; set; }
 
         [DataMember(Name = "city")]
-        public string city { get; set; }
+        public string athina { get; set; }
 
         [DataMember(Name = "zipcode")]
-        public string code { get; set; }
+        public string ze { get; set; }
+
+        [DataMember(Name = "geo")]
+        public Geo geo { get; set; }
     }
 }

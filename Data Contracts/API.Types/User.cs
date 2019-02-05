@@ -25,9 +25,6 @@ namespace API.Types
         [DataMember(Name = "address")]
         public Address address { get; set; }
 
-        [DataMember(Name = "geo")]
-        public Geo geo { get; set; }
-
         [DataMember(Name = "phone")]
         public string phone { get; set; }
 
@@ -36,5 +33,8 @@ namespace API.Types
 
         [DataMember(Name = "company")]
         public Company company { get; set; }
+
+        [DataMember(Name = "posts")]
+        public List<Post> Posts;
     }
 }

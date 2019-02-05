@@ -22,7 +22,7 @@ namespace API.Types
         [DataMember(Name = "email")]
         public string email { get; set; }
 
-        [DataMember(Name = "email")]
+        [DataMember(Name = "body")]
         public string body { get; set; }
     }
 }

@@ -11,12 +11,12 @@ namespace API.Types
     public class Company
     {
         [DataMember(Name = "name")]
-        public string name { get; set; }
+        public string Name { get; set; }
 
         [DataMember(Name = "catchPhrase")]
-        public string phrase { get; set; }
+        public string catchPh { get; set; }
 
         [DataMember(Name = "bs")]
-        public string bs { get; set; }
+        public string Bs { get; set; }
     }
 }

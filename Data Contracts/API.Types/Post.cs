@@ -24,5 +24,7 @@ namespace API.Types
         [DataMember(Name = "body")]
         public string body { get; set; }
 
+        public List<Comment> Comments { get; set; }
+
     }
 }
